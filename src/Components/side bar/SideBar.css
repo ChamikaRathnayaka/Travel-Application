@@ -1,0 +1,46 @@
+.SideBar{
+    flex:3;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideImage {
+    width: 300px;
+    height: 250px;
+    margin-top: 25px;
+}
+
+.SideBarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sideBarTitle{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid rgb(160, 157, 157);
+    border-bottom: 1px solid rgb(160, 157, 157);
+    margin-top: 30px;
+    font-weight:bold;
+    
+}
+
+.SideBar p{
+    padding: 35px 35px 0px 35px;
+    
+}
+
+.sideBarListItem{
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+}
+
+.SideBarIcon{
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
